@@ -1,7 +1,7 @@
 # 🦜 Alas de Colombia - Expo 2026
 
 ¡Bienvenido al repositorio oficial de **Alas de Colombia**! Este proyecto es una plataforma web interactiva diseñada para la simulación de un ecosistema digital dedicado al avistamiento, catalogación y conservación de la majestuosa avifauna colombiana. 
-
+diseñador:Ronald fernando luna vidarte
 Desarrollado como entrega práctica para el **Taller 4**, el sitio adopta un estilo visual **tropical oscuro** —combinando fondos negros profundos, textos grises de alta legibilidad y acentos verde selva— construido bajo estrictos estándares de accesibilidad, rendimiento y diseño responsivo.
 
 ---
