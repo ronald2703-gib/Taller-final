@@ -14,11 +14,12 @@
 <body class="bg-black">
     <main>
 
-        <nav
-            class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top border-bottom border-success   border-2 shadow">
+      <nav
+            class="navbar navbar-expand-lg navbar-dark fixed-top border-bottom border-success border-opacity-25 shadow-sm"
+            style="background: linear-gradient(180deg, rgba(0, 49, 17, 0.95) 0%, rgba(0, 0, 0, 0.4) 100%); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
             <div class="container">
                 <a class="navbar-brand fw-bold text-white" href="index.html">
-                    <i class="bi bi-twitter text-success bt p-1 t  rounded bg-gradient "></i> Alas de Colombia
+                    <i class="bi bi-twitter text-success bt p-1 t rounded bg-gradient "></i> Alas de Colombia
                 </a>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
@@ -29,9 +30,15 @@
                                     class="bi bi-house-fill"></i> Inicio</a></li>
                         <li class="nav-item"><a class="nav-link text-white " href="app/login.html"><i
                                     class="bi bi-stack"></i> Plataforma</a></li>
-                        <li class="nav-item ms-lg-3">
+                        
+                        <li class="nav-item ms-lg-2">
+                            <a class="nav-link text-white-50 d-flex align-items-center gap-1" href="app/customer.html" style="font-size: 0.9rem;">
+                                <i class="bi bi-shield-lock text-success"></i> Admin
+                            </a>
+                        </li>
+                        <li class="nav-item ms-lg-2">
                             <a class="btn btn-success btn-sm text-white px-3 fw-bold"
-                                href="app/record.html">Inscribirse</a>
+                                href="app/record.html">Registrate</a>
                         </li>
                     </ul>
                 </div>
@@ -87,12 +94,12 @@
             </button>
         </div>
 
-
-        <section class="py-3 bg-black">
+      
+        <section class="py-3 " style="  background: radial-gradient(circle, rgb(1, 51, 29), rgb(0, 0, 0));">
             <div class="container py-4">
                 <div class="row text-center mb-5">
                     <div class="col">
-                        <h2 class="fw-bold text-white bg-gradient p-2">Pilares de Conservación Tropical</h2>
+                        <h2 class="fw-bold text-white ">Pilares de Conservación Tropical</h2>
                         <p class="text-white-50">Colombia es el paraíso mundial de la avifauna. Conoce nuestro enfoque
                             ecológico.</p>
                     </div>
@@ -101,31 +108,31 @@
 
                 <div class="row g-4">
                     <div class="col-md-4">
-                        <div class="card h-100 bg-dark border-secondary ">
-                            <div class=" text-center p-4">
+                        <div class="card h-100 bg-dark border-secondary  bg-opacity-50 border-opacity-50 shadow-sm">
+                            <div class=" text-center p-5">
                                 <i class="bi bi-eye text-success display-4 mb-3 d-block"></i>
-                                <p class=" h5  fw-bold text-white">Avistamiento Ético</p>
-                                <p class=" text-secondary small">Promovemos el turismo científico y de observación
+                                <h4 class=" fw-bold text-white">Avistamiento Ético</h4>
+                                <p class=" text-secondary fs-6">Promovemos el turismo científico y de observación
                                     respetando la densa selva y sus nidos.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card h-100 bg-dark border-secondary ">
-                            <div class=" text-center p-4">
+                        <div class="card h-100 bg-dark border-secondary  bg-opacity-50 border-opacity-50 shadow-sm">
+                            <div class=" text-center p-5">
                                 <i class="bi bi-shield-check text-success display-4 mb-3 d-block"></i>
-                                <h5 class=" fw-bold text-white">Protección de Especies</h5>
-                                <p class=" text-secondary small">Monitoreamos activamente a las aves endémicas en
+                                <h4 class=" fw-bold text-white">Protección de Especies</h4>
+                                <p class=" text-secondary fs-6">Monitoreamos activamente a las aves endémicas en
                                     peligro crítico de extinción dentro de los parques nacionales.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card h-100 bg-dark border-secondary">
-                            <div class=" text-center p-4">
+                        <div class="card h-100 bg-dark border-secondary  bg-opacity-50 border-opacity-50 shadow-sm">
+                            <div class=" text-center p-5">
                                 <i class="bi bi-people text-success display-4 mb-3 d-block"></i>
-                                <h5 class=" fw-bold text-white">Comunidad Global</h5>
-                                <p class=" text-secondary small">Conectamos a fotógrafos, ornitólogos y entusiastas en
+                                <h4 class=" fw-bold text-white">Comunidad Global</h4>
+                                <p class=" text-secondary fs-6">Conectamos a fotógrafos, ornitólogos y entusiastas en
                                     el mayor simposio de biodiversidad del país.</p>
                             </div>
                         </div>
@@ -133,15 +140,9 @@
                 </div>
             </div>
         </section>
-        <div class="bg-black text-center ">
-
-            <li><a href="app/customer.html" class="btn btn-success text-white px-2 "><i
-                        class="bi bi-universal-access"></i> Panel de administracion</a></li>
-            </ul>
-        </div>
     </main>
 
-    <footer class="bg-dark text-secondary py-5 border-top border-secondary mt-4">
+    <footer class="bg-dark text-secondary py-5 border-top border-success ">
         <div class="container">
             <div class="row">
 

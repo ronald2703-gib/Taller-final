@@ -10,10 +10,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body class="text-light-emphasis d-flex align-items-center vh-100 " 
-      style="background-image: url('../assets/img/christina-victoria-craft-gv851Ya4l_Y-unsplash.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+      style="background-image: url('../assets/img/Gemini_Generated_Image_l52zpxl52zpxl52z.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 
-
-    <main class="container">
+<main class="container">
          <div class="text-center mb-4">
                     <a href="../index.html" class="text-decoration-none text-white fs-3 fw-bold">
                        <i class="bi bi-twitter text-success bt p-1 t  rounded bg-gradient " ></i> Alas de Colombia
@@ -21,7 +20,10 @@
           </div>
         <div class="row justify-content-center">
             <div class="col-10 col-sm-8 col-md-6 col-lg-4">
-                <div class="card bg-dark border-secondary shadow">
+                
+                
+                <div class="card border-success border-opacity-25 shadow-lg"
+                     style="background: rgba(0, 0, 0, 0.75); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);">
                     <div class="card-body p-4">
                         <h2 class="card-title text-center text-white fw-bold fs-4 mb-3">Recuperación</h2>
                         <p class="text-white-50 text-center small mb-4">Ingresa tu correo para enviarte las instrucciones de restablecimiento.</p>
@@ -29,21 +31,24 @@
                         <form>
                             
                             <div class="mb-4">
-                                <label class="form-label text-white-50  fw-bold">Correo de Recuperación</label>
-                                <input type="email" class="form-control bg-black text-white  is-invalid" value="correo_ronalsiuu@aves.com" required>
+                                <label class="form-label text-white-50 fw-bold small">Correo de Recuperación</label>
+                                <!-- Se cambió bg-black por el fondo semitransparente respetando el estado is-invalid -->
+                                <input type="email" class="form-control text-white border-secondary border-opacity-50 is-invalid" 
+                                       style="background: rgba(0, 0, 0, 0.45);" value="correo_ronalsiuu@aves.com" required>
                                 <div class="invalid-feedback fw-bold">
                                     correo no encontrado.
                                 </div>
                             </div>
 
-                            <button type="button" class="btn btn-success w-100 py-2 mb-3 text-white" onclick="location.href='login.html'">Volver</button>
+                           
+                            <button type="button" class="btn btn-success w-100 py-2 mb-3 text-white fw-bold shadow-sm" 
+                                    style="transition: all 0.3s ease;" onclick="location.href='login.html'">Volver</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
